@@ -1,0 +1,16 @@
+img{
+  width: 40px;
+}
+
+.user-input{
+  width:70%;
+  border-radius: 50px;
+  border: 1px solid black;
+  padding: 20px;
+
+}
+input{
+  outline: none;
+  border:none;
+  font-size: 24px;
+}
