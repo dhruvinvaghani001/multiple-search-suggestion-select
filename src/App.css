@@ -1,16 +1,71 @@
-img{
+img {
   width: 40px;
 }
 
-.user-input{
-  width:70%;
+.user-input {
+  width: 70%;
   border-radius: 50px;
   border: 1px solid black;
   padding: 20px;
 
 }
-input{
+
+input {
   outline: none;
-  border:none;
+  border: none;
   font-size: 24px;
+}
+
+.pill-image {
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-input {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pill-main {
+  margin-right: 5px;
+  background: black;
+  color: white;
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+i {
+  font-size: small;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.suggestions {
+  height: 500px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.suggestions ul li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  background: rgb(243, 241, 241);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+
+.suggestions ul li img {
+  margin-right: 5px;
+ 
+}
+.suggest{
+  width: 50%;
 }
